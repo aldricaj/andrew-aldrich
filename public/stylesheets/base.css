@@ -2,31 +2,56 @@ body {
     background-color: #E0E0E0;
     color:black;
 }
+
+.project {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    transition: 0.2s;
+    width: 300px;
+    margin: 18px;
+    background-color: red;
+}
+
+.project-container {
+    margin:5% auto;
+    width:75%;
+}
+.project:nth-child(2n+1) {
+    float: both;
+    clear: both;
+}
+#experience {   
+    padding: 4% 5%; 
+}
+#experience div>ul>li > p {
+    padding-left:2%;
+}
 #main {
     width:100%;
     padding-right: 0;
+    padding-left: 0;
     
 }
 .shadow {
     box-shadow: 1px 1px 3px 2px #666;
 }
 h1,h2,h3 {
-    font-family: Graduate, Helvetica;
+    font-family: Graduate;
 }
 h4,h5,h6,p,a,li {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
 }
 h1 {
     font-size: 30pt;
 }
 h2 {
     font-size: 25pt;
+    margin-bottom: 2%;
 }
 h3 {
     font-size: 25pt;
 }
 h4 {
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: bolder;
 }
 h5 {
@@ -66,10 +91,28 @@ a:hover {
     width:100%;
     background-color: rgba(255, 162, 0, 0.466);
     padding: 2% 0%;
+    margin-top:-20px;
+    margin-right: -30px;
 }
 
 #hero-textbox .p-block {
     border-color: #0000EE;
+}
+
+#my-skills {
+    padding: 4% 5%;
+    background-color: rgba(255, 175, 46, 0.466); 
+}
+
+#my-skills > h2 {
+    padding-bottom: 1%;
+    border-bottom: solid brown;
+    padding-left: 2%;
+    margin-left: -2%;
+}
+
+div > ul > li {
+    list-style: none;
 }
 
 #header {
