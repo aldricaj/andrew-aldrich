@@ -1,0 +1,46 @@
+<div class="modal fade bd-example-modal-lg" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="Contact Form" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <h4 class="modal-title" id="modellabel"></h4>
+            </div>
+            <div id="formContainer" class="modal-body">
+                <form id="contact-form" >
+                    <div> 
+                        <label for="Name"  >First Name<span style="color:red">*</span>: </label>
+                        <p><input type="text" class="validate" id="firstName" name="firstName" isreq="" ></input></p>
+                        <label for="Name"  >Last Name<span style="color:red">*</span>: </label>
+                        <p><input type="text" class="validate" id="lastName" name="lastName" isreq="" ></input></p>
+                        
+                        <label for="email"  >Email<span style="color:red">*</span>: </label>
+                        <p><input type="text" class="validate" id="email" name="email" isreq="">
+                        </input></p>
+                        <span class="emailerror" style="display:none;color:red;">That is not a valid form of email ex/"name@uc.edu"<br /></span>
+                        <label for="msg-body">Body:</label>
+                        <p>
+                            <textarea id="msg-body" >
+                            
+                            </textarea>
+                        </p>
+                    </div>
+                    <div>
+                        <input type="submit" id="submit" value="Submit" style=""></input>
+                    </div>
+                </form>
+            </div>
+            <div id="confirmation" class="modal-body toggle" style="display:none" aria-hidden="true" >
+                <div class="success">
+                    <h4>Success!</h4>
+                    <h5>Submission complete</h5>
+                </div>
+                
+            </div>
+            <div id="failure" class="modal-body toggle" style="display:none" aria-hidden="true" >
+                <h1>Whoops! looks like the request failed:/.</h1>
+            </div>
+        </div>
+    </div>
+</div>

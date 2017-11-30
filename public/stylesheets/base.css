@@ -13,7 +13,7 @@ body {
 h1,h2,h3 {
     font-family: Graduate, Helvetica;
 }
-h4,h5,h6,p,a {
+h4,h5,h6,p,a,li {
     font-family: Roboto, sans-serif;
 }
 h1 {
@@ -37,7 +37,7 @@ h5 {
     font-size:20pt;
     font-weight: bolder;
 }
-p {
+p,li {
     font-size: 14pt;
 }
 
@@ -72,6 +72,12 @@ a:hover {
     border-color: #0000EE;
 }
 
-#hero-textbox p {
-    
+#header {
+    text-align: center;
+}
+#header .container{
+    display: flex;
+}
+#header .navbar-collapse{
+    margin:auto;
 }
