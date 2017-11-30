@@ -1,0 +1,77 @@
+body {
+    background-color: #E0E0E0;
+    color:black;
+}
+#main {
+    width:100%;
+    padding-right: 0;
+    
+}
+.shadow {
+    box-shadow: 1px 1px 3px 2px #666;
+}
+h1,h2,h3 {
+    font-family: Graduate, Helvetica;
+}
+h4,h5,h6,p,a {
+    font-family: Roboto, sans-serif;
+}
+h1 {
+    font-size: 30pt;
+}
+h2 {
+    font-size: 25pt;
+}
+h3 {
+    font-size: 25pt;
+}
+h4 {
+    font-size: 20pt;
+    font-weight: bolder;
+}
+h5 {
+    font-size:20pt;
+    font-weight: bolder;
+}
+h5 {
+    font-size:20pt;
+    font-weight: bolder;
+}
+p {
+    font-size: 14pt;
+}
+
+a {
+    color:rgb(0, 0, 192);
+}
+a:hover {
+    font-weight: bold;
+    color:rgb(30, 30, 255);
+    text-decoration: none;
+}
+
+.portrait {
+    max-height: 350px;
+    max-width:100%;
+    float:right;
+}
+
+.p-block {
+    margin-left: 1%;
+    padding: 1% 2% 1% 2%;
+    border-left:solid 3px #606060;
+}
+
+#about-me {
+    width:100%;
+    background-color: rgba(255, 162, 0, 0.466);
+    padding: 2% 0%;
+}
+
+#hero-textbox .p-block {
+    border-color: #0000EE;
+}
+
+#hero-textbox p {
+    
+}
