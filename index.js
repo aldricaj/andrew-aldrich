@@ -9,7 +9,10 @@ app.disable('x-powered-by');
 app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'));
 
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+
+let viewsPath = path.join(__dirname,'views');
+app.set('views', viewsPath);
+app.engine('handlebars', exphbs({defaultLayout: 'main',layoutsDir:viewsPath + '/layouts', partialsDir: viewsPath + '/partials'}));
 app.set('view engine', 'handlebars');
 
 app.post('/contact-me', emailAndrew); 
