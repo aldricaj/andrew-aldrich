@@ -20,6 +20,10 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
+app.get('/english-recast', function (req, res) {
+    res.render('recast');
+});
+
 function emailAndrew(req, res) {
     res.status(200); // Shhhhhhhh! I'm lazy
     res.send();

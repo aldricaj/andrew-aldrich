@@ -60,6 +60,9 @@ body {
 .shadow {
     box-shadow: 1px 1px 3px 2px #666;
 }
+#header h1 {
+    color: black;
+}
 h1,h2,h3 {
     font-family: Graduate;
 }
@@ -153,6 +156,8 @@ div > ul > li {
 
 #header {
     text-align: center;
+    width:100vw;
+    margin-left:-5%;
 }
 #header .container{
     display: flex;
